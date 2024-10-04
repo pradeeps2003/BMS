@@ -1,0 +1,70 @@
+ul {
+    list-style: none;
+}
+
+li {
+    display: inline;
+    margin-left: 30px;
+    padding: 16px 10px;
+    transition: background-color 0.5s;
+
+}
+
+#navbar {
+    position: absolute;
+    top: 25px;
+    right: 30px;
+
+}
+
+li:hover {
+
+    background-color: rgb(192, 144, 13);
+    color: white;
+
+}
+
+
+#scroll {
+    top: 26%;
+    right: 0%;
+    width: 100%;
+    overflow: hidden;
+    position: absolute;
+}
+#scroll img {
+
+    margin-left: 20px;
+    border-radius: 14px;
+    height: 300px;
+    width: 380px;
+}
+h1{
+    margin-top: 300px;
+    padding-left: 60px;
+}
+
+
+#scroll {
+    display: flex;
+    justify-content: space-around;
+    animation: scroll-horizontal 10s linear infinite;
+}
+
+@keyframes scroll-horizontal {
+    0% {
+        left: 100%;
+    }
+
+    100% {
+        left: -100%;
+    }
+}
+.movies img{
+    display: inline;
+    height: 400px;
+    width: 300px;
+    padding-left: 50px;
+    padding-top :15px;
+    margin-left: 40px;
+}
